@@ -1,16 +1,19 @@
 .start {
     height: 85%;
+
     display: block;
   }
   
   /* background no css, para facilitar a manutenção do código, foi criado um background no css para o teste.html . */
   body {
-    background: url("img/box_baixo.png");
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/box_baixo.png);
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     font-family: "Montserrat", sans-serif;
     position: relative;
+    height: 100vh;
   }
   
   
@@ -96,6 +99,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 300px;
   }
   

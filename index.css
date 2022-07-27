@@ -1,0 +1,101 @@
+.start {
+    height: 85%;
+    display: block;
+  }
+  
+  /* background no css, para facilitar a manutenção do código, foi criado um background no css para o teste.html . */
+  body {
+    background: url("img/box_baixo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+  }
+  
+  
+  /* Icone do adobe */
+  .imagem_2 {
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  /* textos apresentando o produto */
+  .descrição_inicial {
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .descrição_final {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 0 0 50px;
+  }
+  
+  /* começo do formulario */
+  
+  .email {
+    text-align: left;
+    float: left;
+    flex-direction: row;
+    width: 30em;
+    height: 50px;
+    text-indent: 1em;
+  }
+  
+  .enviar {
+    width: 10em;
+    height: 50px;
+    color: white;
+    background-color: #ff6961;
+    float: right;
+    flex-direction: row;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    font-size: 100%;
+    margin-right: 80px;
+  }
+  
+  /* diferenciar quando passar o mouse por cima do botão */
+  
+  .enviar:hover {
+    background-color: #ff0000;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Estilização dos ícones de contato */
+  .itens {
+    /*todos os icones  */
+    list-style-type: none;
+    display: flex;
+    margin-top: 1em;
+    height: 100%;
+    align-items: flex-end;
+  
+  }
+  
+  .lista_link {
+    margin-left: 1em;
+    margin-right: 1em;
+    border: black;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  

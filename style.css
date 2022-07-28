@@ -109,8 +109,7 @@ footer {
   margin: 0 10px 0 10px;
   ;}
 
-
-  p {
+.descrição {
     color: white;
     font-size: 30px;
     padding: 20px;
@@ -119,13 +118,5 @@ footer {
     align-items: center;
     justify-content: center;
     
-    
   }
 
-  .pagina2{
-
-    color: white;
-    font-size: 30px;
-    padding: 10%;
-    text-align: center;
-  }

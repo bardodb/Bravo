@@ -1,6 +1,7 @@
 # Bravo
 Teste da Bravo Interativa
-Links para o acesso: https://bravo-taupe.vercel.app/     
+Links para o acesso: 
+https://bravo-taupe.vercel.app/
 https://bravo-git-main-braiansins.vercel.app/
 https://braiansins.github.io/Bravo/
 

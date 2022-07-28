@@ -1,5 +1,5 @@
 .start {
-    height: 85%;
+    height: 10%;
   
     display: block;
   }
@@ -7,16 +7,16 @@
   /* background no css, para facilitar a manutenção do código, foi criado um background no css para o teste.html . */
   body {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/box_baixo.png);
-  
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     font-family: "Montserrat", sans-serif;
     position: relative;
-    height: 100vh;
+
   }
   
-  
+
   /* Icone do adobe */
   .imagem_2 {
     align-self: center;
@@ -24,110 +24,34 @@
     justify-content: center;
     display: flex;
   }
-  
-  /* textos apresentando o produto */
-  .descrição_inicial {
+
+  /* todos os textos */
+  section{
     color: white;
     font-size: 30px;
-    padding: 30px;
+    padding: 10%;
     text-align: center;
+    width: auto;
   }
   
-  .descrição_final {
+
+  /* paragráfo pra deixar os links arrumados e bonitos */
+  p {
     color: white;
-    font-size: 14px;
-    text-align: center;
-    padding: 0 0 50px;
-  }
-  
-  /* começo do formulario */
-  
-  .email {
-    text-align: left;
-    float: left;
-    flex-direction: row;
-    width: 30em;
-    height: 50px;
-    text-indent: 1em;
-  }
-  
-  .enviar {
-    width: 10em;
-    height: 50px;
-    color: white;
-    background-color: #ff6961;
-    float: right;
-    flex-direction: row;
-  }
-  
-  form {
+    font-size: 30px;
+    padding: 20px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 100%;
-    font-size: 100%;
-    margin-right: 80px;
-  }
-  
-  /* diferenciar quando passar o mouse por cima do botão */
-  
-  .enviar:hover {
-    background-color: #ff0000;
-    color: white;
-    cursor: pointer;
-  }
-  
-  /* Estilização dos ícones de contato */
-  .itens {
-    /*todos os icones  */
-    list-style-type: none;
-    display: flex;
-    margin-top: 1em;
-    height: 100%;
-    align-items: flex-end;
-  
-  }
-  
-  .lista_link {
-    margin-left: 1em;
-    margin-right: 1em;
-    border: black;
-  }
-  
-  footer {
-    display: flex;
-    flex-direction: row;
+    align-self: center;
     align-items: center;
-    justify-content: center;
-    margin-top: 340px;
+    justify-content: center;      
   }
-  
+
+  /* coisas do github */
+
   .git{text-transform:none ;
     color: gray;
     font-size: 28px;
     text-decoration: none;
     margin: 0 10px 0 10px;
-    ;}
-  
-  
-    p {
-      color: white;
-      font-size: 30px;
-      padding: 20px;
-      display: flex;
-      align-self: center;
-      align-items: center;
-      justify-content: center;
-      
-      
-    }
-  
-  
-    section{
-      color: white;
-      font-size: 30px;
-      padding: 10%;
-      text-align: center;
-      width: auto;
-    }
-  
+    align-self: center;
+  }

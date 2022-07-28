@@ -40,8 +40,17 @@ body {
   padding: 0 0 50px;
 }
 
-/* começo do formulario */
+/* arrumando o formulario */
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  font-size: 100%;
+  margin-right: 80px;
+}
 
+/* começo do formulario, parte do email */
 .email {
   text-align: left;
   float: left;
@@ -50,7 +59,7 @@ body {
   height: 50px;
   text-indent: 1em;
 }
-
+/* fim do formulario (botão) */
 .enviar {
   width: 10em;
   height: 50px;
@@ -60,14 +69,6 @@ body {
   flex-direction: row;
 }
 
-form {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  height: 100%;
-  font-size: 100%;
-  margin-right: 80px;
-}
 
 /* diferenciar quando passar o mouse por cima do botão */
 
@@ -99,7 +100,7 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-top: 340px;
+  margin-top: 4em;
 }
 
 .git{text-transform:none ;

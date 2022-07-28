@@ -1,5 +1,5 @@
 .start {
-  height: 85%;
+  height: 10%;
 
   display: block;
 }
@@ -7,11 +7,13 @@
 /* background no css, para facilitar a manutenção do código, foi criado um background no css para o teste.html . */
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(img/box_baixo.png);
+    url(img/box_baixo.png);
+
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   font-family: "Montserrat", sans-serif;
-  height: 100vh;
+  position: relative;
 }
 
 /* Icone do adobe */
@@ -34,7 +36,7 @@ section {
 /* paragráfo pra deixar os links arrumados e bonitos */
 p {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   padding: 20px;
   display: flex;
   align-self: center;
@@ -47,10 +49,8 @@ p {
 .git {
   text-transform: none;
   color: gray;
-  font-size: 28px;
+  font-size: 25px;
   text-decoration: none;
   margin: 0 10px 0 10px;
   align-self: center;
 }
-
-

@@ -4,10 +4,9 @@
   display: block;
 }
 
-/* background no css, para facilitar a manutenção do código. */
+/* background no css, para facilitar a manutenção do código, foi criado um background no css para o teste.html . */
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(img/box_baixo.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/box_baixo.png);
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,6 +15,7 @@ body {
   position: relative;
   height: 100vh;
 }
+
 
 /* Icone do adobe */
 .imagem_2 {
@@ -40,17 +40,8 @@ body {
   padding: 0 0 50px;
 }
 
-/* arrumando o formulario */
-form {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  height: 100%;
-  font-size: 100%;
-  margin-right: 80px;
-}
+/* começo do formulario */
 
-/* começo do formulario, parte do email */
 .email {
   text-align: left;
   float: left;
@@ -59,7 +50,7 @@ form {
   height: 50px;
   text-indent: 1em;
 }
-/* fim do formulario (botão) */
+
 .enviar {
   width: 10em;
   height: 50px;
@@ -93,6 +84,7 @@ form {
   margin-top: 1em;
   height: 100%;
   align-items: flex-end;
+
 }
 
 .lista_link {
@@ -106,23 +98,24 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-top: 4em;
+  margin-top: 340px;
 }
 
-.git {
-  text-transform: none;
+.git{text-transform:none ;
   color: gray;
   font-size: 28px;
   text-decoration: none;
   margin: 0 10px 0 10px;
-}
+  ;}
 
 .descrição {
-  color: white;
-  font-size: 30px;
-  padding: 20px;
-  display: flex;
-  align-self: center;
-  align-items: center;
-  justify-content: center;
-}
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    
+  }
+

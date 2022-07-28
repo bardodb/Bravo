@@ -100,22 +100,3 @@ footer {
   justify-content: center;
   margin-top: 340px;
 }
-
-.git{text-transform:none ;
-  color: gray;
-  font-size: 28px;
-  text-decoration: none;
-  margin: 0 10px 0 10px;
-  ;}
-
-.descrição {
-    color: white;
-    font-size: 30px;
-    padding: 20px;
-    display: flex;
-    align-self: center;
-    align-items: center;
-    justify-content: center;
-    
-  }
-

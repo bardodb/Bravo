@@ -1,57 +1,56 @@
 .start {
-    height: 10%;
-  
-    display: block;
-  }
-  
-  /* background no css, para facilitar a manutenção do código, foi criado um background no css para o teste.html . */
-  body {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/box_baixo.png);
+  height: 10%;
 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    font-family: "Montserrat", sans-serif;
-    position: relative;
+  display: block;
+}
 
-  }
-  
+/* background no css, para facilitar a manutenção do código, foi criado um background no css para o teste.html . */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/box_baixo.png);
 
-  /* Icone do adobe */
-  .imagem_2 {
-    align-self: center;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-  }
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
 
-  /* todos os textos */
-  section{
-    color: white;
-    font-size: 30px;
-    padding: 10%;
-    text-align: center;
-    width: auto;
-  }
-  
+/* Icone do adobe */
+.imagem_2 {
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
 
-  /* paragráfo pra deixar os links arrumados e bonitos */
-  p {
-    color: white;
-    font-size: 30px;
-    padding: 20px;
-    display: flex;
-    align-self: center;
-    align-items: center;
-    justify-content: center;      
-  }
+/* todos os textos */
+section {
+  color: white;
+  font-size: 30px;
+  padding: 10%;
+  text-align: center;
+  width: auto;
+}
 
-  /* coisas do github */
+/* paragráfo pra deixar os links arrumados e bonitos */
+p {
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
 
-  .git{text-transform:none ;
-    color: gray;
-    font-size: 28px;
-    text-decoration: none;
-    margin: 0 10px 0 10px;
-    align-self: center;
-  }
+/* coisas do github */
+
+.git {
+  text-transform: none;
+  color: gray;
+  font-size: 28px;
+  text-decoration: none;
+  margin: 0 10px 0 10px;
+  align-self: center;
+}

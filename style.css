@@ -10,7 +10,8 @@ body {
   background-size: cover;
   background-size: 100%;
   background-position: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif; 
+  background-repeat: no-repeat;
   position: block;
   height: 100vh;
 }

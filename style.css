@@ -51,7 +51,7 @@ form {
 
 /* começo do formulario */
 
-.email {
+#email {
   text-align: left;
   float: left;
   flex-direction: row;

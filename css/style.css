@@ -5,8 +5,8 @@
 }
 
 /* background no css, para facilitar a manutenção do código, foi criado um background no css para o teste.html . */
-body {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/box_baixo.png);
+body{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/box_baixo.png);
   background-size: cover;
   background-size: 100%;
   background-position: center;

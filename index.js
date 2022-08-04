@@ -11,7 +11,8 @@ function validacaoEmail(field) {
         (dominio.search(".")!=-1) &&
         (dominio.indexOf(".") >=1)&&
         (dominio.lastIndexOf(".") < dominio.length - 1)) {
-    document.getElementById("email").innerHTML="E-mail válido";
+    document.getElementById("email").innerHTML="E-mail válido"; 
+    
     window.location.href = "enviado.html";
     }
     else{

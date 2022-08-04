@@ -7,10 +7,9 @@
 /* background no css, para facilitar a manutenção do código, foi criado um background no css para o teste.html . */
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(img/box_baixo.png);
+  url(../img/box_baixo.png);
   height: 100%;
   background-size: cover;
-
   font-family: "Montserrat", sans-serif;
   position: relative;
 }
